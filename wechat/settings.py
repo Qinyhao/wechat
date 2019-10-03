@@ -25,7 +25,7 @@ SECRET_KEY = 'nlxlyz%vd(4usr8(n_$)u(q=$fh*n2keae^63@ro#gxz@+4r4e'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
@@ -81,10 +81,10 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': "wechatdb",
-        'HOST':'127.0.0.1',
+        'HOST':'localhost',
         'PORT':'3306',
         'USER':'root',
-        'PASSWORD':'123456'
+        'PASSWORD':'3247'
     }
 }
 
