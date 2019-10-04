@@ -25,7 +25,7 @@ def send_booking_message(request):
         result = send_sms(telephone,username,school)
     except Exception:
         print(result)
-        return restful.params_error(message="参数错误")
+        return restful.params_error(message="params error")
     print(telephone,username,school)
 
     return restful.ok()

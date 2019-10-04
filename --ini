@@ -1,0 +1,146 @@
+*** Starting uWSGI 2.0.18 (64bit) on [Fri Oct  4 15:43:09 2019] ***
+compiled with version: 7.4.0 on 04 October 2019 07:18:28
+os: Linux-4.15.0-54-generic #58-Ubuntu SMP Mon Jun 24 10:55:24 UTC 2019
+nodename: VM-0-13-ubuntu
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /home/ubuntu/wechat
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /home/ubuntu/wechat
+your processes number limit is 3688
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /home/ubuntu/wechat/wechat.sock fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 2.7.15+ (default, Jul  9 2019, 16:51:35)  [GCC 7.4.0]
+Set PythonHome to /root/.virtualenvs/wechat-env-py2
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x556f84431b70
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 801944 bytes (783 KB) for 10 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x556f84431b70 pid: 15086 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 15086)
+spawned uWSGI worker 1 (pid: 15088, cores: 1)
+spawned uWSGI worker 2 (pid: 15089, cores: 1)
+spawned uWSGI worker 3 (pid: 15090, cores: 1)
+spawned uWSGI worker 4 (pid: 15091, cores: 1)
+spawned uWSGI worker 5 (pid: 15092, cores: 1)
+spawned uWSGI worker 6 (pid: 15093, cores: 1)
+spawned uWSGI worker 7 (pid: 15094, cores: 1)
+spawned uWSGI worker 8 (pid: 15095, cores: 1)
+spawned uWSGI worker 9 (pid: 15096, cores: 1)
+spawned uWSGI worker 10 (pid: 15097, cores: 1)
+[pid: 15097|app: 0|req: 1/1] 111.192.199.216 () {40 vars in 744 bytes} [Fri Oct  4 15:44:58 2019] GET /wechat/company/ => generated 663 bytes in 23 msecs (HTTP/1.1 200) 3 headers in 109 bytes (2 switches on core 0)
+[pid: 15094|app: 0|req: 1/2] 111.192.199.216 () {42 vars in 789 bytes} [Fri Oct  4 15:45:26 2019] GET /wechat/course_booking/ => generated 1868 bytes in 23 msecs (HTTP/1.1 200) 3 headers in 110 bytes (2 switches on core 0)
+[pid: 15097|app: 0|req: 2/3] 111.192.199.216 () {42 vars in 789 bytes} [Fri Oct  4 15:45:28 2019] GET /wechat/course_booking/ => generated 1868 bytes in 3 msecs (HTTP/1.1 200) 3 headers in 110 bytes (2 switches on core 0)
+(u'17614436969', u'Qinyao', u'\u77f3\u666f\u5c71\u6821\u533a')
+[pid: 15089|app: 0|req: 1/4] 111.192.199.216 () {50 vars in 922 bytes} [Fri Oct  4 15:45:38 2019] POST /wechat/send_booking_message/ => generated 42 bytes in 286 msecs (HTTP/1.1 200) 3 headers in 100 bytes (2 switches on core 0)
+Not Found: /
+[pid: 15097|app: 0|req: 3/5] 111.192.199.216 () {42 vars in 738 bytes} [Fri Oct  4 15:47:58 2019] GET / => generated 2016 bytes in 5 msecs (HTTP/1.1 404) 3 headers in 102 bytes (2 switches on core 0)
+*** Starting uWSGI 2.0.18 (64bit) on [Fri Oct  4 16:04:45 2019] ***
+compiled with version: 7.4.0 on 04 October 2019 07:18:28
+os: Linux-4.15.0-54-generic #58-Ubuntu SMP Mon Jun 24 10:55:24 UTC 2019
+nodename: VM-0-13-ubuntu
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /home/ubuntu/wechat
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /home/ubuntu/wechat
+your processes number limit is 3688
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /home/ubuntu/wechat/wechat.sock fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 2.7.15+ (default, Jul  9 2019, 16:51:35)  [GCC 7.4.0]
+Set PythonHome to /root/.virtualenvs/wechat-env-py2
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x55a27431e9f0
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 801944 bytes (783 KB) for 10 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x55a27431e9f0 pid: 17470 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 17470)
+spawned uWSGI worker 1 (pid: 17472, cores: 1)
+spawned uWSGI worker 2 (pid: 17473, cores: 1)
+spawned uWSGI worker 3 (pid: 17474, cores: 1)
+spawned uWSGI worker 4 (pid: 17475, cores: 1)
+spawned uWSGI worker 5 (pid: 17476, cores: 1)
+spawned uWSGI worker 6 (pid: 17477, cores: 1)
+spawned uWSGI worker 7 (pid: 17478, cores: 1)
+spawned uWSGI worker 8 (pid: 17479, cores: 1)
+spawned uWSGI worker 9 (pid: 17480, cores: 1)
+spawned uWSGI worker 10 (pid: 17481, cores: 1)
+*** Starting uWSGI 2.0.18 (64bit) on [Fri Oct  4 16:09:57 2019] ***
+compiled with version: 7.4.0 on 04 October 2019 07:18:28
+os: Linux-4.15.0-54-generic #58-Ubuntu SMP Mon Jun 24 10:55:24 UTC 2019
+nodename: VM-0-13-ubuntu
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /home/ubuntu/wechat
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /home/ubuntu/wechat
+your processes number limit is 3688
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /home/ubuntu/wechat/wechat.sock fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 2.7.15+ (default, Jul  9 2019, 16:51:35)  [GCC 7.4.0]
+Set PythonHome to /root/.virtualenvs/wechat-env-py2
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x55bd8685b9f0
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 801944 bytes (783 KB) for 10 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x55bd8685b9f0 pid: 18052 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 18052)
+spawned uWSGI worker 1 (pid: 18054, cores: 1)
+spawned uWSGI worker 2 (pid: 18055, cores: 1)
+spawned uWSGI worker 3 (pid: 18056, cores: 1)
+spawned uWSGI worker 4 (pid: 18057, cores: 1)
+spawned uWSGI worker 5 (pid: 18058, cores: 1)
+spawned uWSGI worker 6 (pid: 18059, cores: 1)
+spawned uWSGI worker 7 (pid: 18060, cores: 1)
+spawned uWSGI worker 8 (pid: 18061, cores: 1)
+spawned uWSGI worker 9 (pid: 18062, cores: 1)
+spawned uWSGI worker 10 (pid: 18063, cores: 1)
+[pid: 18057|app: 0|req: 1/1] 111.192.199.216 () {46 vars in 971 bytes} [Fri Oct  4 16:10:07 2019] GET /%20wechat/company/ => generated 663 bytes in 41 msecs (HTTP/1.1 200) 3 headers in 109 bytes (2 switches on core 0)

@@ -1,3 +1,4 @@
+# encoding: utf-8
 from django.http import JsonResponse
 
 #定义状态码含义
